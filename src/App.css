@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+body {
+  background-image: url("https://nordicapis.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App.png");
+  background-size: cover;
+}
+
+.App input:focus {
+  border-color: #61dafb;
+}
 
 .App-logo {
   height: 40vmin;
